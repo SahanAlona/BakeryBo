@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Nunito:200,400,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>BakeryBo</title>
+</head>
+<body>
+  
+<!-- Header -->
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <h1><a href="#" class="logo">BakeryBo</a></h1>
+        </div>
+
+        <nav class="nav" id="nav">
+          <a href="#" data-scroll="#intro" class="nav__link active">Home</a>
+          <a href="#" data-scroll="#inside" class="nav__link">About</a>
+          <a href="#" data-scroll="#slider" class="nav__link">Prices</a>
+          <a href="#" data-scroll="#buy" class="nav__link">Where to by</a>
+          <a href="#" data-scroll="#facts" class="nav__link">Bakery</a>
+          <a href="#" data-scroll="#contact" class="nav__link">Contact</a>
+        </nav>
+
+        <button class="burger" type="button" id="navToggle">
+          <span class="burger_item">Menu</span>
+        </button>
+        <div id="burger_overlay">Overlay</div>
+        
+      </div>
+    </div><!--/ container-->
+  </header>
+
+ <!-- Intro -->
+
+ <div class="intro" id="intro">
+    <div class="container">
+        <h2 class="intro__title">New product line from BakeryBo®</h2>
+        <h3 class="intro__title whole__wheat">Whole wheat bread for your health and fitness goals</h3>
+        <p class="intro__subtitle">Gave up bread from your life to stay healthy and fit?</p>
+        <p class="intro__subtitle"> What if we say now you can enjoy it daily and get only healthier?</p>
+        <ul class="button">
+          <li class="button__inner"><a href="#" class="btn">Where to buy</a></li>
+          <li><a href="#" class="btn">Get a coupon</a></li>
+        </ul>
+        <a  href="#" class="arrow__down">arrow</a>
+
+    </div><!--/ container -->
+  </div><!--/ intro -->
+
+   <!-- What's inside -->
+<section class="whats_inside" id="inside">
+  <div class="container">
+    <h3 class="bread__title">What’s inside?</h3>
+    <p class="bread__text">We are 100% honest about how we bake our bread.</p>
+    <p class="bread__text">BakeryBo bread is a rich source of various antioxidants, vitamins, minerals and fibers.</p>
+    <p class="bread__text wave">There are no hidden ingredients that could harm your health or contradict your fitness goals in our recipes. </p>
+    <div class="bread__inner">
+      <ul class="left">
+        <li class="left_item">Whole wheat flour</li>
+        <li>7 added grains</li>
+        <li>Wheat bran</li>
+        <li>Iodised salt </li>
+      </ul>
+      <img class="bread__img" src="img/baget.jpg" alt="dred">
+      <ul class="right">
+        <li class="right_item">No added white flour</li>
+        <li>No artificial flavors</li>
+        <li>No trans fat</li>
+        <li>No sugar</li>
+      </ul>
+  </div>
+    <a href="#" class="arrow__down  arrow__down--black">arrow</a>
+  </div> 
+</section>
+  
+   <!-- Slider_price -->
+
+  <section id="slider" >
+    <div class="container">
+      <h3 class="bread__title">Whole wheat bread line</h3>
+      
+      <div class="slider__price" id="priceSlider">
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle1.png" alt="bread">
+            <a href="#" class="item_name">Whole Wheat Round</a>
+            <p class="item__kcal">270 g | 218 kcal</p>
+            <p class="item__price">$3.79</p>
+          </div>
+        </div>
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle2.png" alt="bread">
+            <a href="#" class="item_name">Whole Wheat
+              Square</a>
+            <p class="item__kcal">150 g | 211 kcal</p>
+            <p class="item__price">$2.19</p>
+          </div>
+        </div>
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle3.png" alt="bread">
+            <a href="#" class="item_name">Whole Wheat
+              Multigrain</a>
+            <p class="item__kcal">270 g | 242 kcal</p>
+            <p class="item__price">$4.19</p>
+          </div>
+        </div>
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle4.png" alt="bread">
+            <a href="#" class="item_name">Breakfast Raisin Square</a>
+            <p class="item__kcal">180 g | 239 kcal</p>
+            <p class="item__price">$3.79</p>
+          </div>
+        </div>
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle1.png" alt="bread">
+            <a href="#" class="item_name">Whole Wheat Round</a>
+            <p class="item__kcal">270 g | 218 kcal</p>
+            <p class="item__price">$3.79</p>
+          </div>
+        </div>
+
+        <div class="slick-slider">
+          <div class="price__item">
+            <img class="item__photo" src="img/circle4.png" alt="bread">
+            <a href="#" class="item_name">Breakfast Raisin Square</a>
+            <p class="item__kcal">180 g | 239 kcal</p>
+            <p class="item__price">$3.79</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="bread__text"> Haven’t tried BakeryBo whole wheat bread yet?</p>
+      <p class="bread__text mrg"> Get a “Buy 1 get 1 free” coupon and receive 2 loaves for the price of 1.</p>
+      <ul class="button button--mrg">
+          <li class="button__inner"><a href="#" class="btn btn--black">Where to buy</a></li>
+          <li><a href="#" class="btn btn--black">Get a coupon</a></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- Where_to_buy -->
+
+  <section class="Where_to_buy" id="buy">
+    <div class="container">
+      <h3 class="bread__title bread__title--white">Where to buy</h3>
+      <p class="bread__text bread__text--white">You can find BakeryBo bread in nearly any supermarket in your neighbourhood.</p>
+      <p class="bread__text bread__text--white wave--wh">Our new whole wheat bread line is already on the shelves.</p>
+      <div class="company_logos">
+        <a href="#" class="logos"><img src="img/Winn_D.png" alt="company logo" ></a>
+        <a href="#" class="logos"><img src="img/Walmart.png" alt="company logo" ></a>
+        <a href="#" class="logos"><img src="img/Walgreens.png" alt="company logo" ></a>
+        <a href="#" class="logos"><img src="img/Publix.png"  alt="company logo"></a>
+        <a href="#"  class="logos"><img src="img/Meijer.png"  alt="company logo"></a>
+        <a href="#"  class="logos"><img src="img/Fred_Meyer.png"  alt="company logo"></a>
+        <a href="#"  class="logos"><img src="img/Whole_F.png" alt="company logo" ></a>
+        <a href="#"  class="logos"><img src="img/Safeway.png" alt="company logo" ></a>
+       
+      </div>
+      <a  href="#" class="arrow__down">arrow</a>
+
+    </div>
+  </section>
+
+  <!-- Facts -->
+  
+  <section id="facts" class="container">
+    <h3 class="bread__title">Facts about BakeryBo</h3>
+    <ul class="facts">
+      <li>
+        <h4 class="title__facts">Organic only</h4>
+        <p class="bread__text text--lh">We use only organic ingredients for our recipes.</p>
+      </li>
+      <li>
+        <h4 class="title__facts">9 years serving</h4>
+        <p class="bread__text text--lh">We’ve been baking bread for 9 years now.</p>
+      </li>
+      <li>
+        <h4 class="title__facts">12 supermarkets</h4>
+        <p class="bread__text text--lh">You can find our bread in 12+ well known supermarkets.</p>
+      </li>
+      <li>
+        <h4 class="title__facts">28 products</h4>
+        <p class="bread__text text--lh">We offer 18 different kinds of bread and more’s coming.</p>
+      </li>
+      <li>
+        <h4 class="title__facts">Recycable bags</h4>
+        <p class="bread__text text--lh">We care not only for your health but for the planet too.</p>
+      </li>
+      <li>
+        <h4 class="title__facts">Baking classes</h4>
+        <p class="bread__text text--lh">We offer group and individual baking classes.</p>
+      </li>
+    </ul>
+    <a  href="#" class="arrow__down arrow__down--black">arrow</a>
+
+  </section>
+
+  <!-- Coupon -->
+
+  <Section id="coupon">
+    <div class="container">
+      <div class="coupon__inner">
+        <div class="get_coupon">
+          <h3 class="bread__title ">Get a coupon</h3>
+          <p class="bread__text mrg">Haven’t tried our new whole wheat bread? No way!</p>
+          <p class="bread__text mrg">The new product line is already on the shelves of supermarkets in your neighnourhood. <br>Just download a “Buy 1 get 1 free” coupon and give it away at the cash register. You’ll receive 2 loaves for the price of 1. Isn’t it great?</p>
+          <p class="bread__text mrg">To download a coupon please type in your e-mail.<br> You don’t have to check the box if you don’t want to receive news from us though.</p>
+          <form action="#" name="MyForm ">
+            <p>
+              <input type="email" placeholder="Email *" required>
+            </p>
+            <p>
+              <input type="checkbox" id="check" class="input_check">
+              <label for="check">I want to receive news about deals and new products.
+              </label>
+            </p>
+            <p>
+              <input type="submit" class="btn btn--black" name=""  value="Where to buy">
+              <input type="submit" class="btn btn--black" name=""  value="Download coupon">
+            </p>
+          </form>
+        </div>
+        <div class="coupon__free">
+            <h3 class="buy_1_get">buy 1 get 1</h3>
+            <p class="free">free</p>
+            <p class="try__new">Try new</p>
+            <h2 class="logo coupon">BakeryBo</h2>
+            <p class="try__new">whole wheat bread</p>
+            <ul class="coupon__free_text">
+              <li>Just grab 2 same loaves on the shelf, give</li>
+              <li>the coupon at the cash register</li>
+              <li>and pay for 1 loaf only.</li>
+            </ul>
+        </div>
+
+      </div> <!--coupon__inner-->
+    </div> <!--/container-->
+  </Section>
+
+<!-- Footer -->
+
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer__inner">
+
+      <div class="footer__logo">
+        <h2 class="logo">BakeryBo</h2>
+        <span class="copyright" >® BakeryGo Inc. All rights reserved.</span>
+      </div>
+
+      <div class="follow_us">
+        <h4 class="footer__title">Follow us</h4>
+        <span>Yes, we are social</span>
+        <ul class="social">
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+
+      <div class="contact_us">
+        <h4 class="footer__title">Contact us</h4>
+        <ul class="contacts">
+          <li><a href="+79 719 729 29 19">+79 719 729 29 19</a></li>
+          <li> <a href="+79 719 729 29 29">+79 719 729 29 29</a></li>
+          <li>bo@bakerybo.com</li>
+        </ul>  
+      </div>
+
+   </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
+  
+</body>
+</html>
